@@ -1,0 +1,36 @@
+body{
+    text-align: center;
+    background-color: #00704A;
+    color: #ffffff;
+    letter-spacing: 2px;
+}
+form{
+    margin: 0px 200px 0px 200px;
+    border: #27251F solid;
+    padding: 40px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input{
+    width: 75px;
+}
+#submit{
+    background:#27251F;
+    color:#FFFFFF ;
+    border: 1px solid #27251F;
+    border-radius: 8px; 
+    height: 30px;
+}
+.size{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.error{
+    color: red;
+    text-shadow: black;
+    
+}
